@@ -1,0 +1,79 @@
+{
+    "metadata": {
+        "defaultName": "Солнечная Панель (STDL)",
+        "description": "Обычная модель солнечной панели",
+        "version": "1.0.0",
+        "author": "Команда №3"
+    },
+    "styleParameters": [
+        {
+            "name": "General",
+            "text": "Общее",
+            "params": [
+                {
+                    "name": "panelHorizontalAngle",
+                    "text": "Угол наклона панели (Относ. горизонта)",
+                    "type": "Angle",
+                    "default": "0",
+                    "min": "0",
+                    "max": "45"
+                }
+            ]
+        },
+        {
+            "name": "Legs",
+            "text": "Ножки",
+            "params": [
+                {
+                    "name": "legsHeight",
+                    "text": "Высота ножек",
+                    "type": "Length",
+                    "default": "15",
+                    "min": "2.5",
+                    "max": "1000"
+                },
+                {
+                    "name": "legsOffset",
+                    "text": "Отступ ножек от краев",
+                    "type": "Length",
+                    "default": "10",
+                    "min": "5",
+                    "max": "500"
+                },
+                {
+                    "name": "legsSideSize",
+                    "text": "Длина стороны плоскости ножки",
+                    "type": "Length",
+                    "default": "10",
+                    "min": "5",
+                    "max": "500"
+                }
+            ]
+        },
+        {
+            "name": "Borders",
+            "text": "Бортики",
+            "params": [
+                {
+                    "name": "bordersHeight",
+                    "text": "Высота бортиков",
+                    "type": "Length",
+                    "default": "15",
+                    "min": "1",
+                    "max": "50"
+                },
+                {
+                    "name": "bordersWidth",
+                    "text": "Ширина бортика",
+                    "type": "Length",
+                    "default": "5",
+                    "min": "1",
+                    "max": "25"
+                }
+            ]
+        }
+    ],
+    "ports": [
+        
+    ]
+}

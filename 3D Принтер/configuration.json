@@ -1,0 +1,35 @@
+{
+    "metadata": {
+        "defaultName": "3D Принтер (STDL)",
+        "description": "3D принтер с закрытым корпусом",
+        "version": "1.0.0",
+        "author": "Команда №3"
+    },
+    "styleParameters": [
+        {
+            "name": "Legs",
+            "text": "Ножки",
+            "params": [
+                {
+                    "name": "legsHeight",
+                    "text": "Высота ножек",
+                    "type": "Length",
+                    "default": "7.5",
+                    "min": "2.5",
+                    "max": "25"
+                },
+                {
+                    "name": "legsOffset",
+                    "text": "Отступ ножек от краев",
+                    "type": "Length",
+                    "default": "15",
+                    "min": "5",
+                    "max": "25"
+                }
+            ]
+        }
+    ],
+    "ports": [
+        
+    ]
+}

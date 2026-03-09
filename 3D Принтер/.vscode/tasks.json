@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "3D Принтер",
+            "command": "C:\\Users\\dambr\\OneDrive\\Desktop\\for renga\\RengaSTDLSDK\\RstBuilder\\RstBuilder.exe",
+            "args": [                 
+                "configuration.json",
+                "burh.lua",
+                "-s",
+                "2.0",
+                "-o",
+                "Printer3D.rst"
+            ],
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+            "group": "build",
+        }
+    ]
+}

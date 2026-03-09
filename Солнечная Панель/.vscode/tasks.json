@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Солнечная Панель",
+            "command": "C:\\Users\\dambr\\OneDrive\\Desktop\\for renga\\RengaSTDLSDK\\RstBuilder\\RstBuilder.exe",
+            "args": [                 
+                "configuration.json",
+                "burh.lua",
+                "-s",
+                "2.0",
+                "-o",
+                "SolarPanel.rst"
+            ],
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+            "group": "build",
+        }
+    ]
+}
